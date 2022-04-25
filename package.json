@@ -1,27 +1,33 @@
 {
-  "name": "album-photo",
+  "name": "red-tool",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-syntax-flow": "^7.16.7",
+    "@babel/plugin-transform-react-jsx": "^7.17.3",
+    "@reduxjs/toolkit": "^1.8.1",
+    "@testing-library/dom": "7.21.4",
     "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.1.1",
+    "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "json-server": "^0.17.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "5.0.1",
+    "react-icons": "^4.3.1",
+    "react-redux": "^8.0.1",
+    "react-scripts": "5.0.0",
+    "svgo": "2.8.0",
+    "typescript": "^4.6.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "eject": "react-scripts eject",
+    "server": "json-server db.json -p 5000 -w -d 0"
   },
   "browserslist": {
     "production": [
