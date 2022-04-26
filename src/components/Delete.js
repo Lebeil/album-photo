@@ -3,7 +3,7 @@ import { AiOutlineDelete } from "react-icons/ai";
 
 const Delete = ({ id }) => {
   const handleDelete = () => {
-    axios.delete("http://localhost:5000/pictures/" + id);
+    axios.delete("http://localhost:5001/pictures/" + id);
   };
   return (
     <div className="delete-icon" onClick={() => handleDelete()}>

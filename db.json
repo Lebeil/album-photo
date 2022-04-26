@@ -48,6 +48,24 @@
       "year": "2021",
       "photo": "https://picsum.photos/400/470",
       "id": 9
+    },
+    {
+      "artist": "from scratch",
+      "year": "2017",
+      "photo": "https://picsum.photos/400/456",
+      "id": 10
+    },
+    {
+      "artist": "from scratch",
+      "year": "2017",
+      "photo": "https://picsum.photos/400/477",
+      "id": 11
+    },
+    {
+      "artist": "From scratch",
+      "year": "2017",
+      "photo": "https://picsum.photos/400/470",
+      "id": 12
     }
   ]
 }
