@@ -25,9 +25,12 @@ export const pictureSlice = createSlice({
                     return pic;
                 }
             })
+        },
+        deletePicture: (state, {payload}) => {
+            state.pictures = state.pictures.filter((pic) => pic.id !== payload);
         }
     },
 });
 
-export const { setPicturesData, addPicture, editPicture } = pictureSlice.actions;
+export const { setPicturesData, addPicture, editPicture, deletePicture } = pictureSlice.actions;
 export default pictureSlice.reducer;
